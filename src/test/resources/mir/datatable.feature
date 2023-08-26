@@ -1,6 +1,6 @@
 Feature: Testing
 
-  @SetCookies
+
   Scenario Outline: Creation of a Lead
     When I go to create lead page
     And enter and submit lead details '<FirstName>', '<LastName>', '<Email>', '<Company>'
@@ -13,7 +13,7 @@ Feature: Testing
       | Alex      | Jones    | xyz@gmail.com | MRF     |
       | Mir       | Mamun    | mir@gmail.com | CNN     |
 
-  @SetCookies
+
   Scenario Outline: Creation of a Lead second example
     When I go to create lead page
     And enter and submit lead details

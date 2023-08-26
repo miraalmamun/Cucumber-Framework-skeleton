@@ -1,5 +1,5 @@
 Feature: login without member id
-
+  @SetCookies
   Scenario Outline: eating
     Given there are <start> cucumbers
     When I eat <eat> cucumbers

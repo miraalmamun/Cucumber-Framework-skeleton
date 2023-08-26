@@ -1,3 +1,4 @@
+@SetCookies
 Feature: Cucumber Expression
 
   Rule: Use cucumber expression
