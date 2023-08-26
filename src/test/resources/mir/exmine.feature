@@ -1,6 +1,5 @@
 Feature: Testing
 
-  @SetCookies
   Scenario Outline: Creation of a Lead
     When I go to create lead page
     And enter and submit lead details
