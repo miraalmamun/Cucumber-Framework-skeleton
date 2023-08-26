@@ -28,7 +28,7 @@ pipeline {
     post {
         always {
             // Publish the Cucumber report
-            cucumber jsonReportPath: 'target/cucumber-reports/cucumber.json',
+            cucumber jsonReportDirectory: 'target/cucumber-reports/cucumber.json',
                     trendsLimit: 10,
                     classifications: [
                         // You can add key-value pairs here for additional info in the report
