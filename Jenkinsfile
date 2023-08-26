@@ -29,6 +29,7 @@ pipeline {
         always {
             // Publish the Cucumber report
             cucumber jsonReportDirectory: 'target/cucumber-reports',
+                    fileIncludePattern: '**/*.json',
                     trendsLimit: 10,
                     classifications: [
                         // You can add key-value pairs here for additional info in the report
